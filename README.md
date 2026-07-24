@@ -270,22 +270,17 @@ Developed modern, responsive Shopify themes using **Liquid, HTML, CSS, JavaScrip
 Interactive business intelligence dashboards with **Power BI, DAX, Power Query, SQL, and Excel** for KPI tracking and data visualization.
 
 ---
-
-# 📈 GitHub Stats
-
+# 📊 GitHub Analytics
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Hadi99999437&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hadi99999437&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=Hadi99999437&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Hadi99999437&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Hadi99999437&theme=tokyonight&hide_border=true"/>
-</p>
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Hadi99999437&theme=tokyonight&no-frame=true"/>
-</p>
+<img src="https://streak-stats.demolab.com?user=Hadi99999437&theme=tokyonight"/>
 
+</p>
 ---
 
 # 📚 Currently Learning
