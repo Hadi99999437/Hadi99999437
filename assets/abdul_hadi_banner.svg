@@ -1,0 +1,139 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#090A15"/>
+<stop offset="50%" stop-color="#111827"/>
+<stop offset="100%" stop-color="#050816"/>
+
+<animate attributeName="x1" values="0%;100%;0%" dur="20s" repeatCount="indefinite"/>
+</linearGradient>
+
+<linearGradient id="text" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#38BDF8"/>
+<stop offset="50%" stop-color="#8B5CF6"/>
+<stop offset="100%" stop-color="#06B6D4"/>
+
+<animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect width="1280" height="320" fill="url(#bg)"/>
+
+<!-- Animated circles -->
+
+<circle cx="150" cy="70" r="3" fill="#38BDF8">
+<animate attributeName="cy" values="70;40;70" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="350" cy="230" r="2" fill="#8B5CF6">
+<animate attributeName="cy" values="230;190;230" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="620" cy="60" r="4" fill="#22D3EE">
+<animate attributeName="cy" values="60;25;60" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="890" cy="250" r="3" fill="#38BDF8">
+<animate attributeName="cy" values="250;210;250" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1150" cy="80" r="3" fill="#8B5CF6">
+<animate attributeName="cy" values="80;45;80" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- AI Circuit Lines -->
+
+<g stroke="#1E40AF" stroke-width="1.2" opacity="0.35">
+
+<path d="M0 60 H250 V120 H430"/>
+
+<path d="M1280 260 H1050 V180 H820"/>
+
+<path d="M0 250 H200 V180 H450"/>
+
+<path d="M1280 60 H1040 V120 H900"/>
+
+</g>
+
+<!-- Pulsing Nodes -->
+
+<circle cx="250" cy="120" r="4" fill="#38BDF8">
+<animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="430" cy="120" r="4" fill="#38BDF8">
+<animate attributeName="r" values="4;7;4" dur="2s" begin="1s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="820" cy="180" r="4" fill="#8B5CF6">
+<animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1040" cy="120" r="4" fill="#8B5CF6">
+<animate attributeName="r" values="4;7;4" dur="2s" begin="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Main Name -->
+
+<text
+x="640"
+y="135"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="58"
+font-weight="700"
+text-anchor="middle"
+fill="url(#text)"
+filter="url(#glow)">
+
+Abdul Hadi
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="640"
+y="180"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="24"
+text-anchor="middle"
+fill="#E5E7EB">
+
+AI • Full Stack Developer • Cloud Enthusiast
+
+</text>
+
+<!-- Tech Stack -->
+
+<text
+x="640"
+y="220"
+font-family="Consolas, monospace"
+font-size="18"
+text-anchor="middle"
+fill="#93C5FD">
+
+Python • React • FastAPI • Flutter • AWS • Power BI • Shopify
+
+</text>
+
+<!-- Bottom Glow -->
+
+<rect x="0" y="300" width="1280" height="20" fill="#2563EB" opacity="0.15">
+
+<animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+
+</rect>
+
+</svg>
