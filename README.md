@@ -35,9 +35,17 @@ Python • C++ • Java • JavaScript • SQL
 
 TensorFlow • PyTorch • Scikit-Learn • OpenCV • Pandas • NumPy
 
+**Machine Learning Frameworks**
+
+PyTorch • TensorFlow • Scikit-Learn • XGBoost • LightGBM • CatBoost • OpenCV • Pandas • NumPy • SciPy • Matplotlib • Plotly
+
 **LLM Ecosystem**
 
-LangChain • LangGraph • Hugging Face • Transformers • FAISS • ChromaDB • Pinecone • LlamaIndex • OpenAI API • Google Gemini • Ollama • MLflow
+- **Frameworks:** LangChain • LangGraph • LlamaIndex • Hugging Face • Transformers
+- **LLM APIs:** OpenAI API • Google Gemini • Anthropic Claude • Ollama
+- **Vector Databases:** FAISS • ChromaDB • Pinecone • Weaviate • Qdrant • Milvus • Redis Vector Search
+- **Deployment & Inference:** vLLM • LM Studio
+- **Experiment Tracking & MLOps:** MLflow
 
 **Areas**
 
